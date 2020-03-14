@@ -25,8 +25,8 @@ public class ExemploController {
 	
 	@GetMapping("/funcao")
 	public double funcoes(@RequestParam ("op")    String operacao, 
-						  @RequestParam ("num1")  int num1, 
-						  @RequestParam ("num2")  int num2) 
+						  @RequestParam ("num1")  double num1, 
+						  @RequestParam ("num2")  double num2) 
 	{
 		if(operacao.equals("soma")) 
 		{
